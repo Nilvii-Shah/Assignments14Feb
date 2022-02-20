@@ -1,0 +1,30 @@
+.name{
+    text-align:center;
+    background-color: pink;
+}
+h1{
+    text-align:center;
+    
+}
+body{
+    background-color: aliceblue;
+}
+table{
+    text-align:center;
+    width: 800px;
+    margin:auto;
+    table-layout:fixed;
+    margin-top:100px;
+}
+tr:nth-child(3n){
+    background-color: palevioletred;
+}
+tr:nth-child(3n+1){
+    background-color: purple;
+}
+tr:nth-child(3n+2){
+    background-color: plum;
+}
+th{
+    background-color: snow;
+}
